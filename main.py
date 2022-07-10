@@ -1,3 +1,4 @@
+from num2words import num2words
 from transliterate import translit
 
 text = """Ladies and gentlemen, I'm 78 years old and I finally got 15 minutes
@@ -8,3 +9,7 @@ More than 3 years ago I moved to Novo-Novsk, but worked on new Magnetic Storage
 for last 40. When I was 8..."""
 
 print(translit(text, 'ru'))
+
+print(num2words(42))
+print(num2words(42, to='ordinal'))
+print(num2words(42, lang='fr'))
