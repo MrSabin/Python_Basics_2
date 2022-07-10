@@ -10,8 +10,8 @@ for last 40. When I was 8..."""
 
 print(translit(text, 'ru'))
 
-print(num2words(78))
-print(num2words(15))
-print(num2words(3))
-print(num2words(40))
-print(num2words(8))
+print('78 -', translit(num2words(78), 'ru'))
+print('15 -', translit(num2words(15), 'ru'))
+print('3 -', translit(num2words(3), 'ru'))
+print('40 -', translit(num2words(40), 'ru'))
+print('8 -', translit(num2words(8), 'ru'))
