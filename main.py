@@ -10,6 +10,8 @@ for last 40. When I was 8..."""
 
 print(translit(text, 'ru'))
 
-print(num2words(42))
-print(num2words(42, to='ordinal'))
-print(num2words(42, lang='fr'))
+print(num2words(78))
+print(num2words(15))
+print(num2words(3))
+print(num2words(40))
+print(num2words(8))
