@@ -9,15 +9,15 @@ Main goal of script - transliterate text to russian letters.
 2. Python 3 should be already installed
 3. Install dependencies by command:
 
-’’’bash
+```bash
 python3 -m pip install -r requirements.txt
-’’’
+```
 
 4. Run script by command:
 
-’’’bash
+```bash
 python3 main.py
-’’’
+```
 
 ## Project goals
 
